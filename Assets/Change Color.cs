@@ -1,0 +1,24 @@
+using UnityEngine;
+
+public class ChangeColor : MonoBehaviour
+{
+    public GameObject model;
+    public Color color;
+    public Material colorMaterial;
+    // Start is called once before the first execution of Update after the MonoBehaviour is created
+    void Start()
+    {
+        
+    }
+
+    // Update is called once per frame
+    void Update()
+    {
+        
+    }
+    public void ChangeColor_BTN()
+    {
+       // model.GetComponent<Renderer>().material.color = Color.red;
+        colorMaterial.color = color;
+    }
+}
